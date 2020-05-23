@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>Unordered List</title>
+	<style type="text/css">
+		ul{
+			list-style-type: none;}
+			#smiley li::before{
+				/*content: '\1F605';*/
+				content: '\1F44D';
+				font-size: 30px;
+				margin-right: 20px;
+			}
+			#smiley li{
+				font-size: 30px;
+				color: bisque;
+				background-color: black;
+				margin-bottom: 20px;
+				padding: 10px;	
+			}
+			#image li{
+				list-style-image: url('skull.jpg');
+				margin-left: 150px
+				}
+	</style>
+	</head>
+	<body>
+	<h1>Decorate List using span tag</h1>
+		<ul>
+			<li><span>&#128515</span>Books</li>
+			<li><span>&#128515/span>Toys</li>
+			<li><span>&#128515</span>Games</li>
+			<li><span>&#128515</span>Food</li>
+			<li><span>&#128515</span>Dessert</li>
+
+		</ul>
+		<h1>Decorate List using content</h1>
+		<ul id="smiley">
+			<li>Books</li>
+			<li>Toys</li>
+			<li>Games</li>
+			<li>Food</li>
+			<li>Dessert</li>
+
+		</ul>
+		</ul>
+		<h1>Decorate List using images</h1>
+		<ul id="image">
+			<li>Books</li>
+			<li>Toys</li>
+			<li>Games</li>
+			<li>Food</li>
+			<li>Dessert</li>
+
+		</ul>
+			</body>
+</html>
